@@ -11,20 +11,20 @@
     
 */
 
-function oi () {
-    return "Oi"
+function oi() {
+  return "Oi";
 }
 
 let execute;
 
 const corUser = null;
-const corDefault = corUser|| "preto"; //se o usuario não escolher nada, vai ser preto porque é a unica coisa que retorna true;
+const corDefault = corUser || "preto"; //se o usuario não escolher nada, vai ser preto porque é a unica coisa que retorna true;
 const corUser1 = "vermelho";
-const corDefault1 = corUser1|| "preto";//agora ele retorna o que usuario escolheu;
+const corDefault1 = corUser1 || "preto"; //agora ele retorna o que usuario escolheu;
 
 console.log(execute && oi); //retorna undefined porque a variavel é vazia;
 
-console.log(0||NaN||"eu mesmo"||true);//só precisa de um valor true para ser exibido, retorna a string;
+console.log(0 || NaN || "eu mesmo" || true); //só precisa de um valor true para ser exibido, retorna a string;
 
 console.log(corDefault);
 console.log(corDefault1);
