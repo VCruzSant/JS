@@ -1,0 +1,91 @@
+:root {
+  --primaryColor: #0ae4b5;
+  --primaryColorDark: #099c7c;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background: var(--primaryColor);
+  font-family: "Open-sans", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+form label,
+form input,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+form input {
+  height: 4rem;
+  font-size: 2.4rem;
+  padding: 0 2rem;
+}
+
+form input:focus {
+  outline: 0.1rem solid var(--primaryColor);
+}
+
+form button {
+  border: none;
+  background-color: var(--primaryColor);
+  color: var(--white);
+  font-size: 1.8rem;
+  font-weight: 700;
+  height: 3.4rem;
+  cursor: pointer;
+  transition: 300ms;
+  margin-top: 3rem;
+}
+
+form button:hover {
+  background: var(--primaryColorDark);
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  margin-left: 25rem;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+
+.container {
+  max-width: 64rem;
+  margin: 2rem auto;
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 1.5rem;
+}
+
+.tabela {
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem 0;
+}
+
+.rResult {
+  background: #54ff5c;
+  padding: 1rem 2rem;
+}
+
+.bad {
+  background: #ff2727;
+  padding: 1rem 2rem;
+}
