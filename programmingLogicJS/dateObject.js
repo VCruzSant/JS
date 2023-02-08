@@ -28,7 +28,7 @@ function numE0 (num) {
 }
 
 function formatDate (dateF) {
-    const d = numE0(dateF.getDay());
+    const d = numE0(dateF.getDate());
     const m = numE0(dateF.getMonth() + 1);
     const y = numE0(dateF.getFullYear()); 
 
