@@ -19,7 +19,7 @@ for (let value of user) {
 
 for (let valueA of userA) {
     console.log(valueA);
-}]
+}
 
 userA.forEach(function (vl, i, a) {
     console.log(vl, i, a)
